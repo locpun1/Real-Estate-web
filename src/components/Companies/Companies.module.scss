@@ -1,0 +1,14 @@
+.companies-container {
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.companies-img {
+  width: 9rem;
+}
+
+@media (max-width: 768px) {
+  .companies-container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,83 @@
+.residencies-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.residencies__head {
+  margin-bottom: 2rem;
+}
+
+.residency {
+  gap: 0.6rem;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: max-content;
+  margin: auto;
+  transition: all 300ms ease-in;
+}
+
+.residency:hover {
+  scale: 1.025;
+  cursor: pointer;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(136, 160, 255, 0.46) 217.91%);
+  box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
+}
+
+.residency-img {
+  width: 100%;
+  max-width: 15rem;
+}
+
+.residency-price {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.residency-name {
+  font-size: 1.5rem;
+}
+
+.residency-detail {
+  font-size: 0.7rem;
+  width: 15rem;
+}
+
+.slider-btn {
+  position: absolute;
+  top: -4rem;
+  right: 0;
+  gap: 1rem;
+}
+
+.slider-btn button {
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.slider-btn>:nth-child(1) {
+  background-color: #eeeeff;
+}
+
+.slider-btn>:nth-child(2) {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.slider-btn button:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .residencies__head {
+    align-items: center;
+  }
+
+  .slider-btn {
+    position: initial;
+  }
+}
+

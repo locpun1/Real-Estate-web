@@ -1,0 +1,27 @@
+
+.getStarted__content {
+  color: var(--white);
+  border-radius: 10px;
+  border: 6px solid #5d77d6;
+  gap: 1.5rem;
+  background-color: #4161df;
+  padding: 2rem;
+ 
+}
+
+.getStarted-heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.getStarted-des {
+  color: #a3b1f0;
+  text-align: center;
+}
+
+.getStarted-btn {
+  border: 0.1rem solid #fff;
+  border-radius: 10px;
+  background: #5a73d7;
+  box-shadow: var(--shadow);
+}
